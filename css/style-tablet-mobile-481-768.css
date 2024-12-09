@@ -1,0 +1,16 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .formCreatingAList {
+        width: 95vw;
+        padding: 20px 10px 10px 10px;
+    }
+    .list, .naming {
+        width: 58vw;
+    }
+
+    .listPairs{
+        width: 75vw;
+    }
+    .addPair, .listPairs {
+    gap: 15px;
+}
+}

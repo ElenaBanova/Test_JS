@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-tablet-769-1023.css">
+    <link rel="stylesheet" href="css/style-tablet-mobile-481-768.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
+</head>
+<body>
+<div class="formCreatingAList">
+    <h1>Test</h1>
+    <form class="addPair" name="addPair">
+        <label class="naming">Name/Value pair
+            <input class="newPair" type="text" name="newPair" placeholder="Name=Value"></label>
+        <button class="button add">Add</button>
+    </form>
+    <div class="errorInput"></div>
+    <div class="listPairs">
+        <div class="list">
+            <p class="naming">Name/Value pair List</p>
+            <div class="pairs">
+                <ol class="ol"></ol>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button sortName">Sort by Name</button>
+            <button class="button sortValue">Sort by Value</button>
+            <button class="button delete">Delete</button>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

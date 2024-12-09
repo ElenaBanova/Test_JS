@@ -1,0 +1,9 @@
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .formCreatingAList {
+        width: 95vw;
+        padding: 35px 15px 35px 15px;
+    }
+    .list, .naming {
+        width: 65vw;
+    }
+}

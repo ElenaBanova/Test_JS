@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style-type: none;
+    }
+
+    body {
+        height: 100vh;
+        background: #3d6eaa;
+        display: flex;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+    }
+
+    /*******************Form*************/
+    .formCreatingAList {
+        width: 70vw;
+        height: 85vh;
+        background-color: white;
+        border-radius: 3px;
+        margin: 0 auto;
+        padding: 45px 50px 45px 40px;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    .naming {
+        color: rgba(128, 128, 128, 0.9);
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list, .naming {
+        width: 45vw;
+    }
+    .newPair, .pairs {
+        border: none;
+        outline: 2px solid rgba(128, 128, 128, 0.2);
+        font-size: 18px;
+        padding: 2px 3px;
+    }
+
+    .newPair {
+        height: 30px;
+    }
+
+    .pairs {
+        height: 53vh;
+        overflow: auto;
+    }
+
+    .listPairs p {
+        margin-top: 20px;
+    }
+
+    .button {
+        height: 30px;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 3px;
+        border: 1px solid white;
+        box-shadow: 0 0 4px rgba(2, 2, 2, 1);
+        outline: 2.5px solid rgba(128, 128, 128, 0.5);
+    }
+
+    button:active {
+        transform: scale(1.01);
+    }
+
+    .add {
+        width: 75px;
+    }
+
+    .sortName, .sortValue {
+        width: 150px;
+    }
+
+    .delete {
+        width: 90px;
+        margin-top: 10px;
+    }
+
+    .addPair {
+        display: flex;
+        align-items: end;
+        gap: 45px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 36px;
+        gap: 20px;
+    }
+
+    .listPairs {
+        display: flex;
+        flex-direction: row;
+        gap: 45px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .errorInput {
+        position: absolute;
+        color: red;
+    }
+

@@ -1,0 +1,33 @@
+@media screen  and (max-width: 480px) {
+    .formCreatingAList {
+        width: 98vw;
+        height: 98vh;
+        padding: 10px 5px 7px 5px;
+    }
+    .naming{
+        width: 75vw;
+    }
+    .list, .addPair{
+        width: 95vw;
+    }
+    .pairs{
+        height: 60vh;
+    }
+    .listPairs{
+        height: 75vh;
+        flex-direction: column;
+    }
+    .buttons{
+        margin: 5px;
+        flex-direction: row;
+    }
+    .sortName, .sortValue, .delete{
+        height: 40px;
+    }
+    .delete{
+        margin: 0;
+    }
+    .addPair, .listPairs {
+        gap: 10px;
+    }
+}
